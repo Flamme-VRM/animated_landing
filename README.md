@@ -6,6 +6,16 @@ A high-performance scroll-driven animation website that plays a 192-frame sequen
 
 The site pins the first section to the viewport while the user scrolls through all 192 pre-rendered frames on a `<canvas>` element. Once the animation completes, normal page scrolling resumes into the content sections below.
 
+
+---
+
+## 📽️ Application Demo
+![App Demo](demo.gif)
+*(Above is a demonstration of the batch processing workflow and AI upscaling capabilities.)*
+
+---
+
+
 ## Tech Stack
 
 | Layer | Technology |
