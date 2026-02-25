@@ -11,6 +11,7 @@ The site pins the first section to the viewport while the user scrolls through a
 
 ## 📽️ Application Demo
 ![App Demo](demo.gif)
+
 *(Above is a demonstration of the batch processing workflow and AI upscaling capabilities.)*
 
 ---
