@@ -1,0 +1,46 @@
+# ─── Python tooling (image processor / Gradio app) ───────────────────────────
+app.py
+image_processor.py
+cleanup.py
+cleanup_web.py
+requirements.txt
+SETUP_GUIDE.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# ─── AI models ────────────────────────────────────────────────────────────────
+models/
+
+# ─── Input / output archives & media ─────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
+*.7z
+processed_results/
+public/
+
+# ─── OS & editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ─── Node (webapp tooling) ────────────────────────────────────────────────────
+webapp/node_modules/
+webapp/dist/
+webapp/.cache/

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Premium Scrollytelling Experience</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loader-content">
+      <h2 class="loader-title">Loading Experience</h2>
+      <div class="progress-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+      <span id="progress-text" class="progress-text">0%</span>
+    </div>
+  </div>
+
+
+  <section id="animation-section" class="animation-section" data-stop="0">
+    <canvas id="sequence-canvas"></canvas>
+    <div class="hero-overlay">
+      <h1>Breathtaking Clarity</h1>
+      <p>Scroll down to experience the visual journey</p>
+    </div>
+  </section>
+
+
+  <main class="content-container">
+    <section class="feature-section left" data-stop="1">
+      <div class="glass-panel">
+        <h2>Precision in every detail</h2>
+        <p>Each of the 192 high-resolution frames is meticulously rendered as you navigate through the experience.</p>
+      </div>
+    </section>
+
+    <section class="feature-section right" data-stop="2">
+      <div class="glass-panel">
+        <h2>Buttery Smooth Performance</h2>
+        <p>Powered by GSAP &amp; Lenis scrolling, the canvas scrubs seamlessly without frame drops.</p>
+      </div>
+    </section>
+
+    <section class="hero-section" data-stop="3">
+      <h1>Experience the Future</h1>
+      <p>A new dimension of web interactivity.</p>
+    </section>
+  </main>
+
+
+  <nav id="pagination" class="pagination" aria-label="Page navigation">
+    <div class="pagination-dots">
+      <button class="dot active" data-target="0" aria-label="Section 1"></button>
+      <button class="dot" data-target="1" aria-label="Section 2"></button>
+      <button class="dot" data-target="2" aria-label="Section 3"></button>
+      <button class="dot" data-target="3" aria-label="Section 4"></button>
+    </div>
+    <button id="next-section-btn" class="next-btn" aria-label="Next section">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </button>
+  </nav>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
